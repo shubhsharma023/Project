@@ -6,7 +6,7 @@ from keep_alive import keep_alive
 keep_alive()
 
 # Define your bot's token
-TOKEN = "MTAwMzI3MjY3NDM1MDQ4NTU0NA.Gcl8wF.3CkWme2Sxd0t7gUPXj67yj_ycAH2nK5dHSzv4s"
+TOKEN = ""
 
 # Set the channel ID where you want to log activities
 LOG_CHANNEL_ID = 1174771424045568112  # Replace with your channel ID
