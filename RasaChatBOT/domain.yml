@@ -1,0 +1,148 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - positive_feedback
+  - negative_feedback
+  - Class_size_of_summer_term
+  - Evaluation_pattern_for_summer_term
+  - Max_Grade_One_Can_Get_In_Summer_Term_And_Auxiliary_Exam
+  - Maximum_number_of_subjects
+  - Tenure_of_summer_term
+  - ask_about_auxiliary_fees
+  - ask_about_backlog_fees
+  - ask_about_summer_term
+  - ask_for_dropping_and_exchanging_subject_in_summer_term
+  - ask_for_mode_at_grade
+  - ask_from_professor
+  - asking_from_board_of_examiner
+  - can_re_enroll_in_summer_semester
+  - fees_refundable
+  - inquire_about_eligibility_for_medal_scholarship_upon_upgradation
+  - modes_in_summer_term
+  - problem_related_to_webkiosk
+  - summer_term_registration_and_auxiliary_exam_registration
+  - when_will_Auxiliary_exams_happen
+  - ask_for_grade_upgradeaa-
+  - ask_for_grade_upgradebbcc
+  - ask_for_grade_upgradeerai
+  - ask_about_general_grade_upgrade
+  - inquire_about_project_based
+  - inquire_about_rounding
+  - ask_teacher_list
+  - which_grade_will_final
+  - inquire_summer_semester_grades
+  - ask_attendance_criteria
+  - inquire_hostel_details
+  - asking_about_passing_criteria_and_makeup_test
+  - lms_regarding_problems
+
+responses:
+  utter_lms_regarding_problems:
+  - text: For problems related to LMS, one can either mail to citm@thapar.edu or raise an e-ticket at lms portal.
+
+  utter_asking_about_passing_criteria_and_makeup_test:
+  - text: Passing criteria for passing the summer semester course is 35 marks for normal courses and 50 marks for project based courses, no makeup tests will be conducted as there is already as shortage of time.
+
+  utter_goodbye:
+  - text: "Hope you got valuable information from our service.."
+
+  utter_positive:
+  - text: "Thanks for your feedback."
+
+  utter_ask_about_summer_term_response:
+  - text: A shortened academic term known as the summer semester usually occurs in the summer. In comparison to the traditional academic year, it gives students the chance to finish their courses faster,where you can improve your grades(from B/B-/C/C-/X/F)
+
+  utter_Class_size_of_summer_term_response:
+  - text: Class size for particular mode (self study or regular mode) depends on the strength of students enrolled in that course ,thus the decision is taken dynamically.
+
+  utter_ask_for_mode_at_grade_response:
+  - text: The mode for E grade will always be regular, if the final score is less than or equal to 25. However, you can choose both the regular and self-study modes if your overall score is equal to or higher than 25.The mode for grades X and F is always going to be regular.Regular study modes and self-study modes are available for grades B, B-, C, and C-.
+
+  utter_modes_in_summer_term_response:
+  - text: The classes in summer term are conducted in two way - Regular Mode i.e; physical classes (X/F/B-/B/C/C-/E for marks >= 25) and Self study Mode (B-/B/C/C-/E).Evaluation pattern will remains same and self study mode students also have to come for exams in campus.
+  
+  utter_Max_Grade_One_Can_Get_In_Summer_Term_And_Auxiliary_Exam_response:
+  - text: The highest possible score for an auxiliary test (held in January or July) is C. For backlog courses or summer semester, the final grades for Backlog courses will be decided by DoAA office.
+
+  utter_ask_about_auxiliary_fees_response:
+  - text: The cost of each subject in Auxiliary (held in January and July) is Rs. 2000, whereas for backlog it is Rs. 15,000.
+
+  utter_ask_about_backlog_fees_response:
+  - text: The cost of backlog courses is Rs. 15,000 per subject, which is non-refundable once the form is submitted.
+
+  utter_when_will_Auxiliary_exams_happen_response:
+  - text: Auxiliary examinations are usually conducted in the months of January and July (if the test is taken in July, it will be held with the EST of summer term students). Students will receive their forms in the mail two to three weeks before to the exam, and the datesheet will be made available one week prior to the exam.
+
+  utter_Evaluation_pattern_for_summer_term_response:
+  - text: Evaluation pattern for the subjects in the summer term is the same as the normal semester, which includes sessional, lab evaluations, MST, and EST with the same weightage as the normal semester (30% sessional, 30% lab EST, and 40% MST)n and results for the same will be declared one / two weeks before the start of regular semester.
+
+  utter_Maximum_number_of_subjects_response:
+  - text: Maximum number of subjects allotted to student applying for summer term is 3 in regular as well as self study mode. Remember max cap will not be amended in any case.
+
+  utter_fees_refundable_response:
+  - text: Fees is not-refundable and non-adjustable once you have submitted the form for it.               
+
+  utter_ask_for_dropping_and_exchanging_subject_in_summer_term_response:
+  - text: Once the form for the summer semester is submitted, the subjects taken cannot be dropped or substituted.There will be no reimbursement of sum if the person decides to drop.
+
+  utter_can_re_enroll_in_summer_semester_response:
+  - text: In case a candidate has improved the grade in the particular course, the same course can't be registered again for improvement else you can take it. 
+
+  utter_inquire_about_eligibility_for_medal_scholarship_upon_upgradation_response:
+  - text: Student who has improved his/her grades during summer semester will not be considered for medal / scholarship / upgradation on the basis of improved grades. Marks / grades obtained only in/during 1st attempt of the course will only be considered for medal / scholarship / upgradation.
+
+  utter_asking_from_board_of_examiner_response:
+  - text: It may vary from regular semester, final decision is taken by BOE i.e; Board Of Examiner(DOAA ,Controllerr,Course Cordinator,HOD).
+
+  utter_problem_related_to_webkiosk_response:
+  - text: For Queries regarding Webkiosk and subject tagging you can mail to rupinderpal.singh@thapar.edu or doaaofficial@thapar.edu
+
+  utter_ask_from_professor_response:
+  - text: For queries such as time table clash and attendance issue,Quiz and lab evaluation details,marks upload refer your respective Faculty.
+
+  utter_ask_about_general_grade_upgrade:
+  - text: You can take course for improvement only if you have grades other than A/A-.Students with X and F Grade are eligible only for the regular mode.In case of E grade self study mode is only applicable if  marks >25 . For Grades(B/B-/C/C-) both the modes are available(self-study and regular mode).The finalized course list will be available on website once decided.
+
+  utter_ask_for_grade_upgradeerai_response:
+  - text: Students need to sit for Auxiliary exam in this case, although yes they can opt for summer semester.
+
+  utter_ask_for_grade_upgradebbcc_response:
+  - text: yes, Students with Grades B/b/B-/b-/C/c/C-/c- can take Summer semester in either modes.
+
+  utter_ask_for_grade_upgradeaa-:
+  - text: No, Students with Grades A or A- cannot take Summer semester in either modes.
+
+  utter__about_project_based:
+  - text: The project based courses such as Engineering Design-1, Engineering Design-2, Capstone Project, etc. cannot be offered as self-study mode. And will only beoffered in regular mode.
+  
+  utter_inquire_about_rounding:
+  - text: Marks obtained as 24.9 will not be rounded off, so no request will be entertained for the same
+
+  utter_ask_teacher_list:
+  - text: The list of faculty alloted for the subjects will be released along with the list of subjects on website.(Remember the faculty for both the modes will be same).
+
+  utter_inquire_summer_semester_grades:
+  - text: One can take summer semester with grades B/B-/C/C-/X/F/E.
+
+  utter_which_grade_will_final:
+  - text: The final grade alloted to student will be the best one he got.And seperate Grade sheet will be released for it too.
+
+  utter_ask_attendance_criteria:
+  - text: The attendance criteria for the students in summer semester is 75%, if any changes done will be conveyed through mails.Rest in any other cases 
+
+  utter_inquire_hostel_details:
+  - text: The list of hostel available for summer semester will be shared on mails along with the fees structure and form for it.
+
+actions:
+  - action_greet
+  - ask_feedback
+  - fallback
+  - negative
+  - Time_Table_Response
+  - Registration_response
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
